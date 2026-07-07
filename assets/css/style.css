@@ -335,34 +335,50 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 26px;
-  color: #173b6c;
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 15px;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+  margin-top: 20px;
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   display: flex;
   align-items: center;
+  color: #e0e0e0;
 }
 
-.about .content ul strong {
-  margin-right: 10px;
+.about .content ul li i {
+  font-size: 18px;
+  margin-right: 8px;
+  color: #ffdd57;
 }
 
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: #149ddd;
-  line-height: 0;
+.about .content ul li strong {
+  margin-right: 6px;
+  color: #ffdd57;
+}
+
+.about .content p {
+  color: #d0d0d0;
+  line-height: 1.6;
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about-wrapper {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
 /*--------------------------------------------------------------
